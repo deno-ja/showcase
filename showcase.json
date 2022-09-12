@@ -1,0 +1,10 @@
+[
+  {
+    "title": "deno-ja LP",
+    "link": "https://deno-ja.deno.dev/",
+    "github": "deno-ja/deno-ja",
+    "image": "deno-ja",
+    "description": "deno-ja公式Webサイトです。Freshで作られていてConnpass APIを使ってイベント開催情報を取得しています。",
+    "tags": ["fresh"]
+  }
+]
