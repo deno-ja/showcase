@@ -5,7 +5,7 @@ import GitHub from "tabler-icons/brand-github.tsx";
 interface Project {
   title: string;
   link: string;
-  github: string;
+  github?: string;
   image: string;
   description: string;
   tags: string[];
