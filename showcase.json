@@ -6,5 +6,13 @@
     "image": "deno-ja",
     "description": "deno-ja公式Webサイトです。Freshで作られていてConnpass APIを使ってイベント開催情報を取得しています。",
     "tags": ["fresh"]
+  },
+  {
+    "title": "GitHub Contributions API",
+    "link": "https://github-contributions-api.deno.dev/",
+    "github": "kawarimidoll/deno-github-contributions-api",
+    "image": "github-contributions",
+    "description": "GitHubのコントリビューショングラフを表示するAPIです。複数の表示形式があります。CLIからも使用できます。",
+    "tags": ["api", "cli"]
   }
 ]
