@@ -10,6 +10,9 @@ Deno本家よりも気軽に作ったものを公開できるようなShowcase�
 deno task screenshot [url] [id]
 ```
 
+※エラーが出る場合は、下記を実行してみてください。
+> PUPPETEER_PRODUCT=chrome deno run -A --unstable https://deno.land/x/puppeteer@16.2.0/install.ts
+
 その後、`showcase.json` に下記のように追記し、Pull Requestを送ってください。
 
 ```json
