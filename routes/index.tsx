@@ -1,5 +1,7 @@
 import projects from "../showcase.json" assert { type: "json" };
 import { Head } from "$fresh/runtime.ts";
+import GitHub from "tabler-icons/brand-github.tsx";
+
 interface Project {
   title: string;
   link: string;
@@ -15,8 +17,7 @@ export default function Home() {
       <Head>
         <title>Showcase | deno-ja</title>
       </Head>
-
-      <div class="flex flex-col min-h-screen">
+      <div class="flex">
         <div class="flex-1">
           <Projects items={projects} />
         </div>
@@ -25,23 +26,6 @@ export default function Home() {
   );
 }
 
-function Showcase({ items }: { items: Project[] }) {
-  return (
-    <section class="max-w-screen-lg mx-auto my-16 px(4 sm:6 md:8) space-y-4">
-      <h2 class="text(3xl gray-600) font-bold">
-        Showcase
-      </h2>
-      <p class="text-gray-600">
-        <a
-          href="https://github.com/denoland/fresh/blob/main/www/data/showcase.json"
-          class="text-blue-600 hover:underline"
-        >
-          Add yours!
-        </a>
-      </p>
-    </section>
-  );
-}
 interface ProjectProps {
   items: Project[];
 }
@@ -74,10 +58,19 @@ export function Projects(props: ProjectProps) {
                 href={`https://github.com/${project.github}`}
                 class="ml-2 text-gray-500 hover:text-gray-700"
               >
+                <GitHub />
                 <span class="sr-only">GitHub</span>
               </a>
             )}
           </div>
+          <div>
+            {project.tags.map((tag) => (
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
+                {tag}
+              </span>
+            ))}
+          </div>
+          <div class="mt-2 text-gray-600">{project.description}</div>
         </div>
       ))}
     </div>
