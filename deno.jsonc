@@ -1,5 +1,0 @@
-{
-  "tasks": {
-    "screenshot": "deno run -A screenshot.ts"
-  }
-}

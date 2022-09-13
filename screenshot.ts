@@ -14,7 +14,7 @@ if (!url || !id) {
   Deno.exit(1);
 }
 
-const outDir = "./screenshot";
+const outDir = "./static/screenshot";
 const browser = await puppeteer.launch({
   defaultViewport: { width: 1200, height: 675 },
 });
