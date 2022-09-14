@@ -22,5 +22,13 @@
     "image": "neumann-tokyo",
     "description": "ClojureやFlutterで受託開発をしている合同会社ノイマン公式Webサイトです。Lume による SSG を github pages にデプロイしています。",
     "tags": ["lume"]
+  },
+  {
+    "title": "Deno Avatar",
+    "link": "https://deno-avatar.deno.dev/",
+    "github": "hashrock/deno-avatar",
+    "image": "deno-avatar",
+    "description": "Deno DeployでSVGを動的に生成するサンプルです。",
+    "tags": ["sift", "svg"]
   }
 ]
