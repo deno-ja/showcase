@@ -11,7 +11,9 @@ deno task screenshot [url] [id]
 ```
 
 ※エラーが出る場合は、下記を実行してみてください。
-> PUPPETEER_PRODUCT=chrome deno run -A --unstable https://deno.land/x/puppeteer@16.2.0/install.ts
+
+> PUPPETEER_PRODUCT=chrome deno run -A --unstable
+> https://deno.land/x/puppeteer@16.2.0/install.ts
 
 その後、`showcase.json` に下記のように追記し、Pull Requestを送ってください。
 
@@ -26,4 +28,5 @@ deno task screenshot [url] [id]
 }
 ```
 
-タグ機能は増えてきたら実装予定ですが、例えば `fresh` `lume` `db` など、見た人がどういった部分を参考にできそうかという観点で適当につけていただけるとありがたいです。
+タグ機能は増えてきたら実装予定ですが、例えば `fresh` `lume` `db`
+など、見た人がどういった部分を参考にできそうかという観点で適当につけていただけるとありがたいです。
