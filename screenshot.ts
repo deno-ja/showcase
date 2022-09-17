@@ -34,4 +34,4 @@ const jpeg1x = join(outDir, `${id}1x.jpg`);
 const image1x = image2x.resize(image2x.width / 2, Image.RESIZE_AUTO);
 await Deno.writeFile(jpeg1x, await image1x.encodeJPEG(80));
 
-await Deno.removeSync(png2x);
+Deno.removeSync(png2x);
