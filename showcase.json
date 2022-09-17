@@ -38,6 +38,13 @@
     "image": "deno-silicon",
     "description": "ソースコードから画像を生成するモジュールです。",
     "tags": ["module"]
-  }
+  },
+  {
+    "title": "Cross-platform Deno module for writing and reading clipboard.",
+    "link": "https://deno.land/x/clippy",
+    "github": "skanehira/deno-clippy",
+    "image": "deno-clippy",
+    "description": "マルチプラットフォームでクリップボードを扱うモジュールです。",
+    "tags": ["module"]
   }
 ]
