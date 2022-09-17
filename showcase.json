@@ -30,5 +30,14 @@
     "image": "deno-avatar",
     "description": "Deno DeployでSVGを動的に生成するサンプルです。",
     "tags": ["sift", "svg"]
+  },
+  {
+    "title": "Deno module for generate image from source code",
+    "link": "https://deno.land/x/silicon",
+    "github": "skanehira/deno-silicon",
+    "image": "deno-silicon",
+    "description": "ソースコードから画像を生成するモジュールです。",
+    "tags": ["module"]
+  }
   }
 ]
