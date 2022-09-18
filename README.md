@@ -17,7 +17,7 @@ deno task screenshot [url] [id]
 
 その後、`showcase.json` に下記のように追記し、Pull Requestを送ってください。
 
-```json
+```jsonc
 {
   "title": "deno-ja LP", // タイトル
   "link": "https://deno-ja.deno.dev/", // リンク先
