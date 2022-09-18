@@ -46,5 +46,21 @@
     "image": "deno-clippy",
     "description": "マルチプラットフォームでクリップボードを扱うモジュールです。",
     "tags": ["module"]
+  },
+  {
+    "title": "imas-artwork-api",
+    "link": "https://imas-artwork-api.deno.dev",
+    "github": "arrow2nd/imas-artwork-api",
+    "image": "imas-artwork-api",
+    "description": "アイドルマスターシリーズのCD / DVDのアートワーク情報を取得する非公式APIです。",
+    "tags": ["api", "hono", "db"]
+  },
+  {
+    "title": "longdeno",
+    "link": "https://deno.land/x/longdeno",
+    "github": "arrow2nd/longdeno",
+    "image": "longdeno",
+    "description": "伸びるDenoくんのCLIツール・モジュールです。",
+    "tags": ["cli", "module"]
   }
 ]
