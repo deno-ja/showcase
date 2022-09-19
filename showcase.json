@@ -62,5 +62,13 @@
     "image": "longdeno",
     "description": "伸びるDenoくんのCLIツール・モジュールです。",
     "tags": ["cli", "module"]
+  },
+  {
+    "title": "value-schema",
+    "link": "https://deno.land/x/value_schema",
+    "github": "shimataro/value-schema",
+    "image": "value-schema",
+    "description": "高機能な入力値チェックライブラリーです。",
+    "tags": ["module"]
   }
 ]
